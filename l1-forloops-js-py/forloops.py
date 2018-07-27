@@ -16,10 +16,10 @@ for i in range(len(animals)):
 # now we'll mention the break condition, which tells the loop to stop right there and skip over any more iterations
 
 for x in animals:
-    print('Cool animal:', x)
     if x == 'platypus':
         print('I thought these were real animals!?')
         break
+    print('Cool animal:', x)
 
 # somewhat related, there is the continue condition, which tells the loop to skip over JUST THIS iteration, and to go to the next one
 
