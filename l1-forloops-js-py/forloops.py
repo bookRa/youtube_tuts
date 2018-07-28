@@ -11,7 +11,7 @@ for x in animals:  # every element in animals will be called 'x' throughout this
 
 # i will go from 0 up to (but not reach!) length of animals (in this case 6)
 for i in range(len(animals)):
-    print('Animal #{1}: {2}'.format(i, animals[i]))
+    print('Animal #{0}: {1}'.format(i, animals[i]))
 
 # now we'll mention the break condition, which tells the loop to stop right there and skip over any more iterations
 
@@ -26,6 +26,6 @@ for x in animals:
 for i in range(len(animals)):
     if i == 3:
         continue
-    print('Animal #{1}: {2}'.format(i, animals[i]))
+    print('Animal #{0}: {1}'.format(i, animals[i]))
 
 # Hope this was understandable and informative!

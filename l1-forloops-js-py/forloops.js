@@ -38,17 +38,17 @@ for (let thing of topics) {
     console.log("...okay I guess we're done with studying");
     break;
   }
-  print("I have homework in " + thing);
+  console.log("I have homework in " + thing);
 }
 
 for (let i in topics) {
   console.log("How do you spell " + topics[i] + "?");
+  //Now we're looping thru each letter in the topics
+  if (topics[i].length > 7) {
+    console.log("Idk, google it");
+    continue;
+  }
   for (j in topics[i]) {
-    //Now we're looping thru each letter in the topics
-    if (topic[i].length > 7) {
-      console.log("Idk, google it");
-      continue;
-    }
-    console.log(topic[i][j]); //print the jth letter of the ith word in our topics array
+    console.log(topics[i][j]); //print the jth letter of the ith word in our topics array
   }
 }
