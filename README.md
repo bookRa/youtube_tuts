@@ -14,6 +14,7 @@ Each video has a corresponding folder which will feature the code that I wrote:
 
 * [Lesson 3 pt.2](https://www.youtube.com/edit?o=U&video_id=J0S7ZwXA-n8)
 
+* [Lesson 4](https://youtu.be/_zN8QziXjd8)
 ----
 
 __Enjoy__
